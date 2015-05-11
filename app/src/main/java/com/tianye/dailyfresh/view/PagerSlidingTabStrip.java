@@ -38,7 +38,7 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.tianye.mobile.rssclothes.R;
+import com.tianye.dailyfresh.R;
 
 import java.util.Locale;
 
