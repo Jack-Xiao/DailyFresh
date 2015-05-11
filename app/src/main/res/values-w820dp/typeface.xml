@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="navigation_drawer_name_list">
+        <item>主页</item>
+        <item>设置</item>
+    </string-array>
+
+    <string-array name="navigation_drawer_icon_list">
+        <item>\uf08d</item>
+        <item>\uf031</item>
+        <item>\uf00e</item>
+        <item>\uf07d</item>
+        <item>\uf07b</item>
+    </string-array>
+
+    <!--"分类", "主页", "热门推荐", "热门收藏", "本月热榜", "今日热榜", "专栏", "随机"-->
+    <string-array name="title_list">
+        <item>分类</item>
+        <item>主页</item>
+        <item>热门推荐</item>
+        <item>热门收藏</item>
+        <item>本月热榜</item>
+        <item>今日热榜</item>
+        <item>专栏</item>
+        <item>随机</item>
+    </string-array>
+</resources>

@@ -1,11 +1,9 @@
 package com.tianye.dailyfresh.ui;
-
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.tianye.dailyfresh.R;
-
 
 public class MainActivity extends BaseActivity {
 

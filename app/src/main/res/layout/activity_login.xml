@@ -1,58 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <EditText
         android:id="@+id/username"
-        android:layout_width="wrap_content"
+        android:layout_width="@dimen/loigc_textview_width"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:hint="Username"/>
+        android:hint="Username" />
 
     <TextView
+        style="@style/logic_commom"
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@id/username"
+        android:layout_above="@id/username"
         android:paddingBottom="20dp"
-        android:text="@string/app_title"/>
+        android:text="@string/app_title" />
 
     <TextView
+        style="@style/logic_commom"
         android:id="@+id/logic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:text="@string/app_name"
+        android:layout_above="@id/title"
         android:paddingBottom="15dp"
-        />
+        android:text="@string/app_name"
+        android:textSize="30dp" />
 
-    <TextView
+    <EditText
+        style="@style/logic_commom"
         android:id="@+id/password"
         android:layout_width="@dimen/loigc_textview_width"
         android:layout_height="wrap_content"
+        android:layout_below="@id/username"
         android:hint="Password"
-        android:paddingTop="10dp"
-        android:layout_marginBottom="@id/username"/>
+        android:inputType="textPassword"
+        android:paddingTop="10dp" />
 
     <Button
+        style="@style/logic_commom"
         android:id="@+id/btnLogin"
         android:layout_width="@dimen/loigc_textview_width"
         android:layout_height="wrap_content"
-        android:text="@string/login"
-        android:layout_marginBottom="@id/password"
+        android:layout_below="@id/password"
         android:paddingTop="10dp"
-        />
+        android:text="@string/login" />
 
     <TextView
+        style="@style/logic_commom"
         android:id="@+id/login_supplement"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/btnLogin"
-        android:paddingTop="10dp"/>
+        android:layout_below="@id/btnLogin"
+        android:paddingTop="10dp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/login_supplement"
         android:layout_centerHorizontal="true"
         android:orientation="horizontal">
 
@@ -60,15 +67,16 @@
             android:id="@+id/img_wb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/wb"
-            android:paddingRight="20dp"/>
+            android:paddingRight="20dp"
+            android:src="@drawable/wb" />
+
         <ImageView
             android:id="@+id/img_wx"
+            android:paddingLeft="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/wx"/>
+            android:src="@drawable/wx" />
     </LinearLayout>
-
 
 
 </RelativeLayout>

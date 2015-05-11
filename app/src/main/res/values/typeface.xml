@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="title_list">
+        <item>分类</item>
+        <item>主页</item>
+        <item>热门推荐</item>
+        <item>热门收藏</item>
+        <item>本月热榜</item>
+        <item>今日热榜</item>
+        <item>专栏</item>
+        <item>随机</item>
+    </string-array>
+
+
+</resources>
